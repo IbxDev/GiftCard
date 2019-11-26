@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    background-image: url('img/pink-background.jpg');
+    background-color:palevioletred;
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -39,6 +39,9 @@ body {
     transition: transform 1s, left 1s;
     transform-origin: 0;
     transform-style: preserve-3d;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
 }
 
 .flipped {
@@ -51,7 +54,7 @@ body {
     box-shadow: 0 0 10px 0 #777;
     position: absolute;
     backface-visibility: hidden;
-    background-color: white;
+    background-color:gold;
 }
 
 .front {
